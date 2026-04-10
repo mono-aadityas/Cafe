@@ -136,3 +136,130 @@ section.footer footer{
     font-size: large;
 }
 
+@media screen and (max-width: 793px) {
+   body{
+    background-image: url(cafe\ image.jpg);
+    background-size: cover;
+   } 
+
+   .header .head{
+    font-size: 40px; 
+    margin-right: 8px;
+   }
+
+    .header .nav nav {
+        font-size: 30px;
+    }
+
+   .header .nav nav a{
+    margin-right: 12px;
+    padding-right: 12px;
+}
+
+.header .nav nav a:hover{
+    font-size:35px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.header .logo img{
+    height: 135px;
+    width: 135px;
+    margin-top: -45px;
+}
+    
+section.container-sec{
+    font-size: 22px;
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 679px) {
+    
+    .header .head{
+    font-size: 35px;
+    margin-right: 6px;
+    
+}
+    .header .nav nav {
+        font-size: 26px;
+    }
+  .header .nav nav a{
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+  .header .logo img{
+   display: none;
+}
+}
+
+@media screen and (max-width: 466px) {
+      
+    .header .head{
+    font-size: 22px;
+    margin-right: 4px;
+    margin-left: 12px;
+    }
+    
+     .header .nav nav {
+        font-size: 22px;
+    }
+     .header .nav nav a{
+    margin-right: 4px;
+    padding-right: 8px;
+    float: right;
+     }
+
+     header .nav nav a:hover{
+    font-size:30px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+}
+section.container-sec{
+    font-size: 20px;
+    text-align: center;
+    margin: 10%;
+}
+}
+
+@media screen and (max-width: 375px) {
+    section.footer footer p{
+  font-size: small;
+    
+}
+}
+
+@media screen and (max-width:320px) {
+      .header .head{
+    font-size: 20px;
+    margin-right: 4px;
+    margin-left: 8px;
+    }
+    
+     .header .nav nav {
+        font-size: 18px;
+    }
+     .header .nav nav a{
+    margin-right: 4px;
+    padding-right: 6px;
+    float: right;
+     }
+
+     header .nav nav a:hover{
+    font-size:25px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+}
+section.container-sec{
+    font-size: 16px;
+    text-align: center;
+    margin: 4%;
+}
+section.footer footer p{
+  font-size: small;
+    
+}
+}
