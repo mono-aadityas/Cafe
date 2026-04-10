@@ -157,7 +157,7 @@ section.footer footer{
 }
 
 .header .nav nav a:hover{
-    font-size:35px;
+    font-size:32px;
     text-decoration: underline;
     text-underline-offset: 6px;
 }
@@ -189,6 +189,13 @@ section.container-sec{
     margin-right: 10px;
     padding-right: 10px;
   }
+
+   header .nav nav a:hover{
+    font-size:28px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+}
   .header .logo img{
    display: none;
 }
@@ -212,7 +219,7 @@ section.container-sec{
      }
 
      header .nav nav a:hover{
-    font-size:30px;
+    font-size:24px;
     text-decoration: underline;
     text-underline-offset: 4px;
 
@@ -248,7 +255,7 @@ section.container-sec{
      }
 
      header .nav nav a:hover{
-    font-size:25px;
+    font-size:20px;
     text-decoration: underline;
     text-underline-offset: 4px;
 
