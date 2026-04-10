@@ -263,3 +263,37 @@ section.footer footer p{
     
 }
 }
+
+@media screen and (max-width:284px) {
+   .header .head{
+    font-size: 18px;
+    margin-right: 4px;
+    margin-left: 6px;
+    }
+    
+     .header .nav nav {
+        font-size: 14px;
+    }
+     .header .nav nav a{
+    margin-right: 2px;
+    padding-right: 4px;
+    float: right;
+     }
+
+     header .nav nav a:hover{
+    font-size:16px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+}
+section.container-sec{
+    font-size: 14px;
+    text-align: center;
+    margin: 4%;
+}
+section.footer footer p{
+  font-size: 11px;
+    
+}
+
+}
