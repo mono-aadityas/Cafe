@@ -109,21 +109,34 @@ section.container-sec h3{
     
 }
 
-section.container-sec .order button{
+  .btn{
     margin-top: 150px;
     font-size: 50px;
     border-radius: 25px;
     padding: 10px 50px;
-    background-color: rgb(168, 97, 5);
+    
     color: rgb(252, 252, 252);
     border: none;
 }
 
-section.container-sec .order button:hover{
-background-color: rgb(180, 105, 7);
+ .btn:hover{
+
 font-size: 55px;
 }
 
+.btn.btn-primary{
+    background-color: rgb(168, 97, 5);
+}
+.btn.btn-primary:hover{
+    background-color: rgb(180, 105, 7);
+}
+
+.btn.btn-danger{
+    background-color: rgb(180, 7, 7);
+}
+.btn.btn-danger:hover{
+    background-color: rgb(110, 0, 0);
+}
 section.footer footer{
     border-top: 1px solid white;
     margin-top: 50px;
@@ -203,31 +216,44 @@ section.container-sec{
 
 @media screen and (max-width: 466px) {
       
+    .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
     .header .head{
-    font-size: 22px;
+    font-size: 30px;
     margin-right: 4px;
     margin-left: 12px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: 800;
     }
     
-     .header .nav nav {
-        font-size: 22px;
-    }
      .header .nav nav a{
     margin-right: 4px;
     padding-right: 8px;
-    float: right;
+    font-size: 22px;
      }
 
-     header .nav nav a:hover{
-    font-size:24px;
+     .header .nav nav a:hover{
+    font-size:23px;
     text-decoration: underline;
-    text-underline-offset: 4px;
+    text-underline-offset: 2px;
 
 }
 section.container-sec{
     font-size: 20px;
     text-align: center;
-    margin: 10%;
+    margin: 10px;
+}
+.btn {
+    font-size: 30px;
+    padding: 8px 40px;
+}
+
+.btn:hover{
+font-size: 33px;
 }
 }
 
@@ -240,7 +266,7 @@ section.container-sec{
 
 @media screen and (max-width:320px) {
       .header .head{
-    font-size: 20px;
+    font-size: 28px;
     margin-right: 4px;
     margin-left: 8px;
     }
@@ -251,7 +277,7 @@ section.container-sec{
      .header .nav nav a{
     margin-right: 4px;
     padding-right: 6px;
-    float: right;
+ 
      }
 
      header .nav nav a:hover{
@@ -261,19 +287,27 @@ section.container-sec{
 
 }
 section.container-sec{
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    margin: 4%;
+    margin: 2px;
 }
 section.footer footer p{
   font-size: small;
     
 }
+.btn {
+    font-size: 25px;
+    padding: 8px 40px;
+}
+
+.btn:hover{
+font-size: 27px;
+}
 }
 
 @media screen and (max-width:284px) {
    .header .head{
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 4px;
     margin-left: 6px;
     }
