@@ -874,6 +874,10 @@ font-size: 27px;
 }
 
 @media screen and (max-width:320px){
+body{
+    overflow-x: hidden;
+}
+ 
     .header{
     display: flex;
     flex-direction: column;
