@@ -840,6 +840,9 @@ section.footer footer {
 }
 
 @media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
   .header .head {
     font-size: 45px;
     margin-right: 4px;
