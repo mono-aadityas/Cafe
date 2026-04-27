@@ -1,82 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url(cafe\ image.jpg);
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    position:relative;
-    
-  
+body {
+  background-image: url(cafe\ image.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  position: relative;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    margin-top: 15px;
-    justify-content: space-around;
-
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-around;
 }
 
-.header .head{
-    font-size: 45px;
-    color: rgb(196, 161, 117);
-    margin-right: 10px;
-    font-family: "Dancing script",cursive;
-    
+.header .head {
+  font-size: 45px;
+  color: rgb(196, 161, 117);
+  margin-right: 10px;
+  font-family: "Dancing script", cursive;
 }
 
-.header .nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
- .header .nav nav {
-font-size: 35px;
-display: flex;
-justify-content: space-between;
-padding: 5px;
-width: auto;
-
+.header .nav nav {
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: auto;
 }
 
-.header .nav nav a{
-    color: burlywood;
-    margin-right: 15px;
-    text-decoration: none;
-    padding-right: 15px;
+.header .nav nav a {
+  color: burlywood;
+  margin-right: 15px;
+  text-decoration: none;
+  padding-right: 15px;
 }
 
-.header .nav nav a:hover{
-    color: rgb(224, 171, 101);
-    font-size:37px;
-    text-decoration: underline;
-    text-underline-offset: 8px;
+.header .nav nav a:hover {
+  color: rgb(224, 171, 101);
+  font-size: 37px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
 }
-.header .nav nav a:active{
-    color: rgb(196, 111, 0);
-}
-
-.header .logo img{
-    height: 150px;
-    width: 150px;
-    margin-top: -45px;
+.header .nav nav a:active {
+  color: rgb(196, 111, 0);
 }
 
-.contact-us{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-areas: 
+.header .logo img {
+  height: 150px;
+  width: 150px;
+  margin-top: -45px;
+}
+
+.contact-us {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas:
     "title-1 title-1"
     "form info"
     "form info"
@@ -87,95 +81,362 @@ width: auto;
     "map map"
     "map map"
     "map map"
-    "footer footer"
-    ;
-    backdrop-filter: blur(5px);
-    
+    "footer footer";
+  backdrop-filter: blur(5px);
 }
 
-.contact-us .title-1{
-    grid-area: title-1;
-     font-size: 45px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    color: rgb(240, 177, 95);
-    text-align: center;
-    font-family: "Leckerli One", cursive;
-    font-weight: 700;
-    margin-bottom: 60px;
+.contact-us .title-1 {
+  grid-area: title-1;
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: rgb(240, 177, 95);
+  text-align: center;
+  font-family: "Leckerli One", cursive;
+  font-weight: 700;
+  margin-bottom: 60px;
 }
 
-.contact-us .form{
-    grid-area: form;
-    font-size: 25px;
-    font-family: "Iosevka Charon Mono", monospace;
-    margin-left: 50px;
-    color: rgb(223, 157, 71);
-    font-weight: 800;
+.contact-us .form {
+  grid-area: form;
+  font-size: 25px;
+  font-family: "Iosevka Charon Mono", monospace;
+  margin-left: 50px;
+  color: rgb(223, 157, 71);
+  font-weight: 800;
 }
 
-.contact-us .form input{
-    width: 500px;
-    height: 40px;
-    margin-bottom: 15px;
-
+.contact-us .form input {
+  width: 500px;
+  height: 40px;
+  margin-bottom: 15px;
 }
 
-.contact-us .form .button-high{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin-top: 18px;
-    background-color: rgb(245, 177, 88);
-    border: none;
+.contact-us .form .button-high {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-top: 18px;
+  background-color: rgb(245, 177, 88);
+  border: none;
 }
 
-.contact-us .form .button-high:hover{
-    background-color: rgb(245, 149, 23);
+.contact-us .form .button-high:hover {
+  background-color: rgb(245, 149, 23);
 }
 
 .contact-us .info .address {
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-    justify-content: center;
-    margin-top: 50px;
-    
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.contact-us .info .address img{
-    float: left;
+.contact-us .info .address img {
+  float: left;
 }
 
 .contact-us .map {
-    grid-area: map;
-    margin-top: 25px;
-    padding: 100px;
+  grid-area: map;
+  margin-top: 25px;
+  padding: 100px;
 }
 
-.contact-us .map h2{
-    font-size: 45px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    color: rgb(240, 177, 95);
-    text-align: center;
-    font-family: "Leckerli One", cursive;
-    font-weight: 700;
+.contact-us .map h2 {
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: rgb(240, 177, 95);
+  text-align: center;
+  font-family: "Leckerli One", cursive;
+  font-weight: 700;
 }
-.contact-us .map iframe{
-    width: 100%;
-}
-
-section.footer{
-    grid-area: footer;
+.contact-us .map iframe {
+  width: 100%;
 }
 
-section.footer footer{
-    border-top: 1px solid white;
-    margin-top: 50px;
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
+section.footer {
+  grid-area: footer;
+}
+
+section.footer footer {
+  border-top: 1px solid white;
+  margin-top: 50px;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  color: white;
+  font-size: large;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-us .form input {
+    width: 450px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .contact-us .info .address {
+    font-size: 30px;
     justify-content: center;
-    padding-bottom: 50px;
-    color: white;
-    font-size: large;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .contact-us .info .address p {
+    font-size: 28px;
+    float: left;
+  }
+
+  .contact-us .info .address img {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header .head {
+    font-size: 40px;
+    margin-right: 8px;
+  }
+
+  .header .nav nav {
+    font-size: 30px;
+  }
+
+  .header .nav nav a {
+    margin-right: 12px;
+    padding-right: 12px;
+  }
+
+  .header .nav nav a:hover {
+    font-size: 32px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+
+  .header .logo img {
+    height: 135px;
+    width: 135px;
+    margin-top: -45px;
+  }
+  .contact-us {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-areas:
+      "title-1"
+      "form "
+      "form"
+      "form"
+      "form"
+      "form"
+      "info"
+      "info"
+      "info"
+      "info"
+      "map"
+      "map"
+      "map"
+      "map"
+      "footer";
+    backdrop-filter: blur(5px);
+  }
+
+  .contact-us .form {
+    grid-area: form;
+    font-size: 25px;
+    font-family: "Iosevka Charon Mono", monospace;
+    margin-left: 18%;
+  }
+
+  .contact-us .form input {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .contact-us .form .button-high {
+    font-size: 20px;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .contact-us .form .button-high:hover {
+    background-color: rgb(245, 149, 23);
+  }
+
+  .contact-us .info .address {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-top: 50px;
+    margin: auto;
+    padding-left: 10%;
+  }
+
+  .contact-us .info .address img {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .head {
+    font-size: 45px;
+    margin-right: 4px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: 800;
+  }
+
+  .header .nav nav a {
+    margin-right: 4px;
+    padding-right: 8px;
+    font-size: 22px;
+  }
+
+  .header .nav nav a:hover {
+    font-size: 23px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .header .logo img {
+    display: none;
+  }
+
+  .contact-us {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-areas:
+      "title-1"
+      "form "
+      "form"
+      "form"
+      "form"
+      "form"
+      "info"
+      "info"
+      "info"
+      "info"
+      "map"
+      "map"
+      "map"
+      "map"
+      "footer";
+    backdrop-filter: blur(5px);
+  }
+
+  .contact-us .form {
+    grid-area: form;
+    font-size: 20px;
+    font-family: "Iosevka Charon Mono", monospace;
+    margin-left: 14%;
+  }
+
+  .contact-us .form input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .contact-us .form .button-high {
+    font-size: 20px;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .contact-us .form .button-high:hover {
+    background-color: rgb(245, 149, 23);
+  }
+
+  .contact-us .info .address {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    margin-top: 50px;
+    margin: auto;
+    padding-left: 10%;
+  }
+
+  .contact-us .info .address img {
+    float: left;
+  }
+
+  .contact-us .map {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+
+  .contact-us .form {
+    grid-area: form;
+    margin-left: 10%;
+  }
+
+  .contact-us .form .button-high:hover {
+    background-color: rgb(245, 149, 23);
+  }
+
+  .contact-us .info .address {
+    font-size: 35px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 8%;
+  }
+
+  .contact-us .info .address img {
+    float: left;
+  }
+
+  .contact-us .map {
+    padding: 10px;
+  }
+
+  section.footer footer p {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width:320px) {
+     .contact-us .form {
+    grid-area: form;
+    margin-left: 7%;
+  }
+  
+  .contact-us .form input {
+    width: 270px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+
+  .contact-us .info .address {
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 6%;
+  }
+
+  .contact-us .info .address p {
+        font-size: 25px;
+        float: left;
+    }
+
+  .contact-us .info .address img {
+    float: left;
+  }
+
+  .contact-us .map {
+    padding: 5px;
+  }
+
+  section.footer footer p {
+    font-size: small;
+  }
 }

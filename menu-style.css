@@ -847,9 +847,8 @@ section.footer footer {
     margin-bottom: 20px;
     margin-top: 15px;
     font-weight: 800;
-
   }
-  .header .nav nav{
+  .header .nav nav {
     margin: auto;
   }
   .header .nav nav a {
@@ -989,6 +988,5 @@ section.footer footer {
   .footer footer p {
     font-size: 11px;
     margin: auto;
-
-}
+  }
 }
