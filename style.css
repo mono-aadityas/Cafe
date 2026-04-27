@@ -317,3 +317,14 @@ section.footer footer {
     font-size: 11px;
   }
 }
+
+@media screen and (min-width:315px) {
+ section.footer footer{
+    text-align: center;
+    justify-content: center;
+ }
+
+section.footer footer p {
+    font-size: 10px;
+  }
+}
